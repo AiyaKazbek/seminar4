@@ -13,6 +13,8 @@ def func(a):
 			print(num)
 			summa=summa+num
 			i+=1
-	return summa
+		return summa
+	else:
+		return -1
 a=func(n)
 print("Summa:",a)
